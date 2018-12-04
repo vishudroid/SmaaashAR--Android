@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SmaaashAR</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="camera_permission">ARView needs access to camera.</string>
+    <string name="external_permission">ARView needs access to external storage.</string>
+    <string name="screenshot_saved">Screenshot saved to Gallery.</string>
+
+
+    <string name="singham">singham</string>
+    <string name="obama">obama</string>
+    <string name="tiptip">tiptip</string>
+    <string name="pdma">pdma</string>
+
+</resources>

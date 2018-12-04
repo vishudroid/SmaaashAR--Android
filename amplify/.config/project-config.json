@@ -1,0 +1,16 @@
+{
+    "projectName": "SmaaashAR",
+    "projectPath": "/Users/ashishtaldeokar/Downloads/SmaaashAR",
+    "defaultEditor": "none",
+    "frontendHandler": {
+        "android": "/Users/ashishtaldeokar/.nvm/versions/node/v10.5.0/lib/node_modules/@aws-amplify/cli/node_modules/amplify-frontend-android"
+    },
+    "amplify-frontend-android": {
+        "config": {
+            "ResDir": "app/src/main/res"
+        }
+    },
+    "providers": {
+        "awscloudformation": "/Users/ashishtaldeokar/.nvm/versions/node/v10.5.0/lib/node_modules/@aws-amplify/cli/node_modules/amplify-provider-awscloudformation"
+    }
+}

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorTheme"
+
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/toolbar_top"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:minHeight="?attr/actionBarSize"
+        android:contentInsetLeft="0dp"
+        android:contentInsetStart="0dp"
+        app:contentInsetLeft="0dp"
+        app:contentInsetStart="0dp"
+        android:contentInsetRight="0dp"
+        android:contentInsetEnd="0dp"
+        app:contentInsetRight="0dp"
+
+        android:background="@color/colorTheme"
+         >
+        <LinearLayout android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_width="match_parent">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Smaaash"
+            android:textSize="@dimen/text_size_20"
+            android:gravity="center"
+            android:textColor="@color/colorWhite"
+            android:id="@+id/toolbar_title" />
+
+        <View android:id="@+id/separator"
+            android:background="@color/colorWhite"
+            android:layout_width = "match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/dimen_10"
+
+            />
+        </LinearLayout>
+    </android.support.v7.widget.Toolbar>
+
+
+</RelativeLayout>
